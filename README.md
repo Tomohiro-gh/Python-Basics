@@ -9,7 +9,10 @@ Python: 環境設定などをまとめる
 Velocytoでエラーが出た．
 `$ velocyto --help`
 
-`AttributeError: module 'numpy' has no attribute 'typeDict'`
+```python
+AttributeError: module 'numpy' has no attribute 'typeDict'
+```
+
 
 調べてみるとこのような記事が出てくる　→ [AttributeError: module 'numpy' has no attribute 'XXX' エラーの解決ログ](https://qiita.com/yusuke_s_yusuke/items/bf7ce2deb6153ab0123b)
 
