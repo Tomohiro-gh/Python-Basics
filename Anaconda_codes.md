@@ -44,7 +44,22 @@ conda update -n base -c defaults conda
 ```sh
 conda update --all
 ```
+#### 特定のライブラリのみをアップデート　（activate後）
+```sh
+conda update numpy matplotlib
 
+```
+
+
+#### 環境内のライブラリ一覧とバージョン　（activate後）
+```sh
+conda list
+```
+
+#### 環境内の特定のライブラリのバージョン　（activate後）
+```sh
+conda list numpy
+```
 
 
 
